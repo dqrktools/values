@@ -56,8 +56,6 @@ const   params = window.location.search.split('&'),
         d = params[0].split('=')[1],
         n = atob(params[1].split('=')[1])
 
-console.log(allValues)
-
 const dataDebtor = Handlebars.compile(
     document.getElementById('dataDebtorTemplate').innerHTML
 );
